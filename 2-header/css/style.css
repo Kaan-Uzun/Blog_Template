@@ -1,0 +1,121 @@
+ body
+            {
+                padding: 0;
+                margin: 0;
+                font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+                font-size: 14px;
+            }
+
+.container
+{
+    width: 1170px;
+     margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#header
+{    
+    text-align: center;
+    color: #fff;
+    background-color: #18BC9C;
+}
+
+#header h1
+{
+    font-size: 4.75em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#star-line
+{
+    border: none;
+    border-top: solid 5px;
+    max-width: 250px;
+    margin-top: 40px;
+	overflow: visible;
+}
+
+#star-line:after
+{   
+    font-family: FontAwesome;
+    content: "\f005";
+    position: relative;
+    top: -17px;
+    font-size: 30px;
+    background-color: #18BC9C;
+    padding: 10px;
+}
+
+#header span
+{
+    font-size: 25px;
+}
+
+
+
+#header .container
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+            
+            #nav-container
+            {
+                height: 100px;
+                background-color: #2C3E50;
+            }
+            
+            #nav-inner
+            {
+                font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                height: 100px;               
+            }
+            
+            #logo
+            {
+                float: left;
+                font-size: 2em;
+                margin:30px 10px;
+            }
+            
+            #nav-menu
+            {
+                float: right;
+                margin:40px 10px;
+            }
+            
+            #nav-inner a
+            {
+                color: #fff;
+                font-weight: 700;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            
+            #nav-menu li
+            {
+                display: inline-block;
+                list-style: none;
+                margin:0 12px; 
+            }
+            
+            #nav-menu li a{
+                letter-spacing: 1px;
+            }
+            
+             #nav-menu li a:hover{
+                color:#18BC9C;
+            }
+            
+            .clear
+            {
+                clear: both;
+            }
